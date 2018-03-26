@@ -1,0 +1,10 @@
+.sticky-container {
+  position: absolute;
+  width: 100%;
+  z-index: 9999;
+
+  .top-bar,
+  .top-bar ul {
+    background: none;
+  }
+}

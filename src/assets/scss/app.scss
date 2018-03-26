@@ -1,0 +1,75 @@
+@import "./common/_fonts.scss";
+@import "./common/variables";
+@import "./common/mixins";
+
+section {
+  padding: rem-calc(60 0);
+}
+
+.title-container {
+  padding: rem-calc(30 0);
+  h2 {
+    font-size: rem-calc(36);
+    font-weight: $bold;
+    letter-spacing: rem-calc(-2);
+
+    @include breakpoint(medium down) {
+      text-align: center;
+    }
+  }
+
+  h3 {
+    font-size: rem-calc(24);
+    font-weight: $bold;
+    letter-spacing: rem-calc(-1);
+
+    @include breakpoint(medium down) {
+      text-align: center;
+    }
+  }
+}
+
+.content-container {
+  padding: rem-calc(15 0);
+  h3 {
+    font-size: rem-calc(26);
+    font-weight: $bold;
+    letter-spacing: rem-calc(-1);
+  }
+  p {
+    line-height: 1.75;
+  }
+
+  a {
+    font-weight: $medium;
+  }
+}
+
+#hero-banner {
+  height: 100vh;
+
+  // background-image: linear-gradient(
+  //     to bottom,
+  //     $img-gradient-filter-start-color 0%,
+  //     $img-gradient-filter-end-color 100%
+  //   ),
+  //   url("../images/bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  background: green;
+
+  .slider-text {
+    color: $white;
+    height: 100vh;
+    width: 100%;
+    max-width: rem-calc(1200);
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+  }
+}
+

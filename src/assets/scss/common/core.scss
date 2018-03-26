@@ -1,0 +1,35 @@
+* {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004) !important; //overflow-x: hidden;
+}
+
+/* fonts */
+
+@import 'fonts';
+
+/* foundation */
+
+@import 'foundation/app';
+
+/* core */
+
+@import 'variables';
+@import 'mixins';
+
+/* styleguide */
+
+@import 'styleguide';
+
+/* section */
+
+@import 'header';
+@import 'footer';
+
+/* overrides */
+
+@import 'overrides';
