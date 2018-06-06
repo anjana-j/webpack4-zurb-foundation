@@ -1,7 +1,7 @@
 {
     "name": "webpack4-react",
     "version": "1.0.0",
-    "description": "Webpack 4 with Foundation 6.4.4-rc1",
+    "description": "Webpack 4 with Foundation 6.4.3",
     "main": "app.js",
     "scripts": {
         "start": "npm run clean && webpack --mode=development && npm run dev",
@@ -12,16 +12,16 @@
     "author": "Anjana J",
     "license": "ISC",
     "repository": {
-      "type": "git",
-      "url": "https://github.com/anjana-j/webpack4-zurb-foundation.git"
+        "type": "git",
+        "url": "https://github.com/anjana-j/webpack4-zurb-foundation.git"
     },
     "devDependencies": {
+        "@babel/cli": "*",
+        "@babel/core": "^7.0.0-beta.49",
+        "@babel/preset-env": "^7.0.0-beta.49",
         "ajv": "^6.4.0",
         "autoprefixer": "^8.2.0",
-        "babel": "^6.23.0",
-        "babel-core": "^6.26.0",
-        "babel-loader": "^7.1.4",
-        "babel-preset-env": "^1.6.1",
+        "babel-loader": "^8.0.0-beta.3",
         "babel-preset-react": "^6.24.1",
         "browser-sync": "^2.23.6",
         "browser-sync-webpack-plugin": "^2.2.2",
@@ -40,14 +40,14 @@
         "react": "^16.2.0",
         "rimraf": "^2.6.2",
         "url-loader": "^1.0.1",
-        "webpack": "^4.2.0",
-        "webpack-cli": "^2.0.13",
-        "webpack-dev-server": "^3.1.1"
+        "webpack": "^4.11.0",
+        "webpack-cli": "*",
+        "webpack-dev-server": "*"
     },
     "dependencies": {
         "@fortawesome/fontawesome": "^1.1.4",
         "@fortawesome/react-fontawesome": "0.0.18",
-        "foundation-sites": "^6.4.4-rc1",
+        "foundation-sites": "^6.4.3",
         "jquery": "^3.3.1"
     }
 }
