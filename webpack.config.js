@@ -123,7 +123,17 @@ const config = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        use: ['babel-loader', 'imports-loader']
+        use: [
+          {
+            loader: 'babel-loader',
+            options: {
+              presets: ['@babel/preset-env']
+            }
+          },
+          {
+            loader: 'imports-loader'
+          }
+        ]
       },
 
       /* jquery loader */
