@@ -1,10 +1,10 @@
-# Webpack 4 with Zurb Foundation 6.4.4
+# Webpack 4 with Zurb Foundation 6.4.3
 
-Starter Template for Zurb Foundation 6.4.4-rc1 intergrated with Sticky Menu
+Starter Template for Zurb Foundation 6.4.3 intergrated with Sticky Menu
 
 Package;
 
-- Zurb Foundation 6.4.4-rc1
+- Zurb Foundation 6.4.3
 - React
 - Font Awesome 5
 
