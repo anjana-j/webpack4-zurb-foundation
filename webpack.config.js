@@ -131,7 +131,7 @@ const config = {
             }
           },
           {
-            loader: 'imports-loader'
+            loader: 'file-loader'
           }
         ]
       },
